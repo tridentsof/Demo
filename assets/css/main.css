@@ -1,10 +1,19 @@
 #main-logo {
-    height: 140px;
-    width: 140px;
+    height: 83px;
+    width: 114px;
     position: absolute;
-    margin-top: -70px;
+    margin-top: -44px;
 }
 #footer-logo {
     height: 50px;
     width: 50px;
 }
+
+@media (min-width: 280px) { 
+    #main-logo {
+        height: 56px;
+        width: 74px;
+        position: absolute;
+        margin-top: -30px;
+    }
+ }
